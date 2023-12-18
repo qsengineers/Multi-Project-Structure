@@ -19,6 +19,17 @@ Let’s take the menu item as example:
 * It's an AngularJS component on Web Orders product
 * It's a React component on [QikOrder](https://github.com/qsengineers/qikorder) product
 
-So how to create this component in way that’s possible to reuse in both products?
-### Considerations
-- Both applications are currently being used in production, so please be carefull on what you are doing. We cant break production apps.
+## What i expect from you
+We expect a proposed solution to reuse components on those 2 products in a way we can start building and changing it as it is today.
+
+They are 90% similar, with similar journey, similar UI. But as they are separated products to end customer, we have built it twice and we are wondering how we could write components once and reuse in those 2 products.
+
+Those 2 products are already in production currently, so please be carefully of how you are planning to reuse components.
+
+
+## Deliveries
+Do the best you can. I'm not asking you to build the solution, i'm asking you to propose a solution.
+
+So write diagrams, write texts, open PRs with examples of how it could be done.
+
+* Please fork this repository on your account to add diagrams and invite ronaldo.zanoni@qikserve.com, felipe.loge@qikserve.com and caio.ricci@qikserve.com. *
